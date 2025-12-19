@@ -30,6 +30,7 @@ region_proxy_map = {
 def main():
     # Setup UI and input widgets to control variable values
     st.title("Happiness Prediction Application")
+    st.markdown("Choose the region, level of features and calculate prediction of happiness.")
     selected_region = st.selectbox("Region", list(region_proxy_map.keys()))
     GDP_per_capita = st.slider("GDP per capita", min_value=0.0, max_value=10.0, step=0.01)
     Social_support = st.slider("Social support", min_value=0.0, max_value=1.0, step=0.01)
