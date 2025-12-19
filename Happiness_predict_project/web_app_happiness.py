@@ -40,7 +40,12 @@ def main():
     # Create button to trigger predictions
     if st.button("Calculate Happiness"):
         try:
-            model = joblib.load('XGBoost_happiness')
+            # Wyznaczenie folderu z modelem
+            BASE_DIR = Path(__file__).resolve().parent
+            # Łączenie folderu z nazwą pliku modelu
+            model_path = BASE_DIR / 'XGBoost_happiness'
+            # Wczytanie modelu
+            model = joblib.load(model_path)
             proxy_country = region_proxy_map[selected_region]
             X_new = pd.DataFrame({
                 'Country': [proxy_country],
