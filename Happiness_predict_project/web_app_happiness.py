@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
+from pathlib import Path
 from classes_preprocessing import ColumnDropper, ChangeNameCountry, AddRegion, TransPower, TransLog, OneH
 # Create region mapping dictionary
 region_proxy_map = {
