@@ -24,6 +24,7 @@ region_proxy_map = {
     'Western Africa': 'Nigeria',
     'Eastern Africa': 'Mauritius',
     'Australia and New Zealand': 'New Zealand',
+    'Caribbean': 'Trinidad and Tobago',
 }
 
 def main():
