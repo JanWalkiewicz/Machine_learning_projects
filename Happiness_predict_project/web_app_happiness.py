@@ -20,7 +20,7 @@ region_proxy_map = {
     'Western Asia': 'Israel',
     'Northern Africa': 'Libya',
     'Middle Africa': 'Cameroon',
-    'Southern Africa': 'South Africa',
+    'Southern Africa': 'Botswana',
     'Western Africa': 'Nigeria',
     'Eastern Africa': 'Mauritius',
     'Australia and New Zealand': 'New Zealand',
