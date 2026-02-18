@@ -62,3 +62,7 @@ streamlit \| joblib \| scipy \| country-converter
 **Klonowanie repozytorium:**
 
     git clone https://github.com/JanWalkiewicz/Machine_learning_projects/tree/main/Happiness_predict_project
+
+## Author
+
+Jan Walkiewicz
