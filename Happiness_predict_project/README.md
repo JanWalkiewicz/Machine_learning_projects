@@ -46,9 +46,8 @@ streamlit \| joblib \| scipy \| country-converter
 
 ## Struktura repozytorium
 
-|                                    |                                                                                                                                                                  |
-|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Plik/Folder**                    | **Opis**                                                                                                                                                         |
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `main.ipynb`                       | Główny raport analizy w formie Jupyter Notebook.                                                                                                                 |
 | `Happiness_Prediction_Report.html` | Główny raport analizy w formacie HTML                                                                                                                            |
 | `web_app_happiness.py`             | Kod autorskiej aplikacji stworzonej w bibliotece **Streamlit**.                                                                                                  |
