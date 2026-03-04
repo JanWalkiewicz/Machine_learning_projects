@@ -1,4 +1,4 @@
-# Data_Visualization_Projects
+# Machine_learning_projects
 
 ## PL
 
